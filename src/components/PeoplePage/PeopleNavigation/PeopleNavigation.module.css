@@ -1,8 +1,0 @@
-.container {
-  display: flex;
-  justify-content: center;
-}
-
-.buttons:not(:last-child) {
-  margin-right: var(--spacing-small);
-}
