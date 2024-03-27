@@ -1,6 +1,7 @@
 {
   "name": "star-wars-react",
   "version": "0.1.0",
+  "homepage": "https://victor-galeznik.github.io/react-star-wars/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.2",
