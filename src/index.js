@@ -6,11 +6,12 @@ import { BrowserRouter } from 'react-router-dom';
 import store from './store/store';
 import { Provider } from 'react-redux';
 import ThemeProvider from './context/ThemeProvider';
+import { REPO_NAME } from './constants/repo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={`/${REPO_NAME}/`}>
       <Provider store={store}>
         <ThemeProvider>
           <App />
